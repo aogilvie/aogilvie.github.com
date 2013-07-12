@@ -1,0 +1,9 @@
+#Custom congig
+baseurl: http://aogilvie.github.io/blog
+name: aogilvie blog
+description: Blog for stuff.
+
+#GitHub Pages defaults
+safe: true
+lsi: false
+pygments: true
