@@ -1,0 +1,4 @@
+#GitHub Pages defaults
+safe: true
+lsi: false
+pygments: true
