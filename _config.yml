@@ -1,0 +1,12 @@
+
+baseurl: http://aogilvie.gihub.io
+name: aogilvie blog
+description: Blog for stuff.
+source:      www
+destination: www
+#rss_path: /rss.xml
+
+#GitHub Pages defaults
+safe: true
+lsi: false
+pygments: true
