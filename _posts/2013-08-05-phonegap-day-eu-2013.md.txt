@@ -2,25 +2,13 @@
 layout: post
 author:
     name: Ally
-    url: https://twitter.com/jekyllrb
+    url: https://twitter.com/allyogilvie
 title:  "PhoneGap Day EU 2013"
 categories: blog
-tags: jekyll
+tags: phonegap
 ---
 
-test post. I shall be speaking at this year's PhoneGap Day EU on the 24th of September.
+I shall be speaking at this year's PhoneGap Day EU on the 24th of September.
 
-Jekyll also offers powerful support for code snippets:
+For more information on the event checkout the[] Adobe PhoneGap site.]:    http://pgday.phonegap.com/eu2013/
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
