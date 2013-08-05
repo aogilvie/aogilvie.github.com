@@ -10,5 +10,5 @@ tags: phonegap
 
 I shall be speaking at this year's PhoneGap Day EU on the 24th of September.
 
-For more information on the event checkout the[] Adobe PhoneGap site.]:    http://pgday.phonegap.com/eu2013/
+For more information on the event checkout the [Adobe PhoneGap Day EU website.](http://pgday.phonegap.com/eu2013/)
 
