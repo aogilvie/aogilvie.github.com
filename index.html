@@ -19,11 +19,20 @@
 
         <header>
           <h1>aogilvie.github.io</h1>
-          <h2>Website innit.</h2>
+          <h2>GitHub website innit.</h2>
         </header>
 
+        <!--<section id="downloads" class="clearfix">
+          <a href="https://github.com/aogilvie" id="view-on-github" class="button"><span>Blog</span></a>
+        </section>-->
         <section id="downloads" class="clearfix">
-          <a href="https://github.com/aogilvie" id="view-on-github" class="button"><span>View on GitHub</span></a>
+          <a href="https://twitter.com/allyogilvie" id="view-on-github" class="button"><span>Twitter</span></a>
+        </section>
+        <section id="downloads" class="clearfix">
+          <a href="https://gist.github.com/aogilvie/5925131" id="view-on-github" class="button"><span>CV</span></a>
+        </section>
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/aogilvie" id="view-on-github" class="button"><span>GitHub</span></a>
         </section>
 
         <hr>
@@ -41,16 +50,24 @@ $ git checkout gh-pages
 
 <div class="site">
 <h1>Blog Posts</h1><a href="{{ site.baseurl }}{{ site.rss_path }}">Subscribe</a>
-<ul class="posts">
-  {% for post in site.posts %}
-    <li>
-    <span>{{ post.date | date_to_string }}</span> &raquo;
-    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-<a href="http://feed1.w3.org/check.cgi?url={{ site.baseurl }}{{ site.rss_path }}"><img src="{{ site.baseurl }}/images/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a>
+---
+layout: ally
+title: Blog Innit.
+---
+
+<div class="site">
+	<h1>Blog Posts</h1><a href="{{ site.baseurl }}{{ site.rss_path }}">Subscribe</a>
+	<ul class="posts">
+	  {% for post in site.posts %}
+	    <li>
+	    <span>{{ post.date | date_to_string }}</span> &raquo;
+	    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+	    </li>
+	  {% endfor %}
+	</ul>
+	<a href="http://feed1.w3.org/check.cgi?url={{ site.baseurl }}{{ site.rss_path }}"><img src="{{ site.baseurl }}/images/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a>
 </div>
+
 
 <p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
