@@ -165,10 +165,10 @@ a.button span {
   background: transparent url(../images/twitter-icon.png) 12px 50% no-repeat;
 }
 #view-on-twitter {
-  margin-right: 4;
+  margin-right: 3;
 }
 #view-on-github {
-  margin-right: 4;
+  margin-right: 3;
 }
 
 code, pre {
