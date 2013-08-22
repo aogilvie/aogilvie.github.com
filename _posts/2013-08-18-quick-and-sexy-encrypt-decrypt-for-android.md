@@ -8,7 +8,7 @@ categories: blog
 tags: android
 ---
 
-#Quick and sexy String encrypt / decrypt for Android
+Quick and sexy String encrypt / decrypt for Android
 
 Sometimes you find yourself wanted to use SharedPrefs to hold something precious? Want to prevent those pesky rooted hackz0rs from looking in your SharedPreds? Here is a quick and sexy no-external-libs-required solution.
 
