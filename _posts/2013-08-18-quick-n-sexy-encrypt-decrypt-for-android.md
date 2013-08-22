@@ -3,12 +3,12 @@ layout: post
 author:
     name: Ally
     url: https://twitter.com/allyogilvie
-title:  "Quick and Sexy Encrypt Decrypt For Android"
+title:  "Quick n Sexy Encrypt Decrypt For Android"
 categories: blog
 tags: android
 ---
 
-Quick and sexy String encrypt / decrypt for Android
+#Quick 'n sexy String encrypt / decrypt for Android
 
 Sometimes you find yourself wanted to use SharedPrefs to hold something precious? Want to prevent those pesky rooted hackz0rs from looking in your SharedPreds? Here is a quick and sexy no-external-libs-required solution.
 
