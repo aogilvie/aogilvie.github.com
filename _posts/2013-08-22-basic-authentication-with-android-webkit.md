@@ -69,7 +69,7 @@ Here is an example of ```shouldInterceptRequest``` and some logs from an applica
         return super.shouldInterceptRequest(view, url);
     }
 
-[All URL host names have been redacted.]
+All URL host names have been redacted.
 
 	D/DEBUG: Check host: <subdomain>.<domain>.jp has user info: user:password for url: http://user:password@<subdomain>.<domain>.jp/app/game/
 	
@@ -101,6 +101,6 @@ The next method to look at is ```onReceivedHttpAuthRequest()``` using this we ca
         }
     }
     
-Here we can see that when a challenge is made, we can use ```view.getHttpAuthUsernamePassword()``` to get the user and password that we set earlier in the previous method and pass that to the ```HttpAuthHander```.
+Here we can see that when a challenge is made, we can use ```view.getHttpAuthUsernamePassword()``` to get the user and password that we set earlier in the previous method and pass that to the ```HttpAuthHander``` .
 
-The devil is in the detail, we actually use a private method ```getBaseDomain()``` in ```shouldInterceptRequest()``` before, to set the credentials for all the things on <domain>.jp. Unfortunately, if you have different user and password authentication on separate sub domains this technique will not work :(
+The devil is in the detail, we actually use a private method ```getBaseDomain()``` in ```shouldInterceptRequest()``` before, to set the credentials for all the things on ```<domain>.jp```. Unfortunately, if you have different user and password authentication on separate sub domains this technique will not work :(

@@ -1,0 +1,16 @@
+---
+layout: ally
+title: Blog Innit.
+---
+
+<div class="site">
+<!-- <h1>Blog Posts</h1><a href="{{ site.baseurl }}{{ site.rss_path }}">Subscribe</a> -->
+<ul class="posts">
+  {% for post in site.posts %}
+    <li>
+    <span>{{ post.date | date_to_string }}</span> &raquo;
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+</div>
