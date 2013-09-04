@@ -259,7 +259,7 @@ Finally add your config.xml, here is a sample;
 
 ## Part 2 - Android
 
-Link (coming soon...)
+[see part 2](/blog/2013/09/04/updating-a-project-to-cordova-3.0-part2.html)
 
 
 # Troubleshooting
