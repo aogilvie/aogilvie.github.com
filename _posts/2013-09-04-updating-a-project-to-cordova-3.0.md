@@ -11,17 +11,17 @@ tags: android, ios, cordova
 # Updating a Project to Cordova 3.0
 ------
 
-This is a quick tutorial on creating a Cordova 3.0 project without CLI. It might be that you are upgrading an existing bulky project and the thought of starting again… 
+### Part 1 - iOS
+
+This is a quick tutorial on creating a Cordova 3.0 project without CLI. It might be that you are upgrading an existing bulky project or whatever. Currently if you want to use Cordova 3.0 or any CLI you have to a make new project from scratch (using CLI)… 
 
 ![image](/images/noo.jpg)
 
-However, get your project upto Cordova 3.0 then adding plugins or updating plugins is as easy as…
-
-	cordova plugin add < URL || pathToDirectory >
+However, this tutorial will show you how to make or update to Cordova 3.0.
 	
 ![image](/images/ooo.gif)
 
-Here is a quick step-by-step starting with a completely empty project. Let's do iOS first. **For Android** see part 2 (link coming soon…).
+Here is a quick step-by-step starting with a completely empty project (check what you need to change for your existing project). Let's do iOS first. **For Android** [see part 2](/blog/2013/09/04/updating-a-project-to-cordova-3.0-part2.html).
 
 
 # iOS
